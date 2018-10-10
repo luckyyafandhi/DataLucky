@@ -1,0 +1,9 @@
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\bin\Release\Pengajuan Vibi.exe
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\bin\Release\Pengajuan Vibi.pdb
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\bin\Release\Pengajuan Vibi.xml
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\obj\x86\Release\Pengajuan_Vibi.Form1.resources
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\obj\x86\Release\Pengajuan_Vibi.Resources.resources
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\obj\x86\Release\Pengajuan Vibi.vbproj.GenerateResource.Cache
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\obj\x86\Release\Pengajuan Vibi.exe
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\obj\x86\Release\Pengajuan Vibi.xml
+D:\vibi.net\Pengajuan Vibi\Pengajuan Vibi\obj\x86\Release\Pengajuan Vibi.pdb
