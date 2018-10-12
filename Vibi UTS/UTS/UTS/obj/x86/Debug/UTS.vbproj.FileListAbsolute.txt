@@ -1,0 +1,20 @@
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\bin\Debug\UTS.exe
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\bin\Debug\UTS.pdb
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\bin\Debug\UTS.xml
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\obj\x86\Debug\UTS.Form1.resources
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\obj\x86\Debug\UTS.Resources.resources
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\obj\x86\Debug\UTS.vbproj.GenerateResource.Cache
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\obj\x86\Debug\UTS.exe
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\obj\x86\Debug\UTS.xml
+D:\UTS_LuckyYaFandhi_Vibi\UTS\UTS\obj\x86\Debug\UTS.pdb
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.exe
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.xml
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.pdb
+D:\vibi.net\Vibi UTS\UTS\UTS\bin\Debug\UTS.exe
+D:\vibi.net\Vibi UTS\UTS\UTS\bin\Debug\UTS.pdb
+D:\vibi.net\Vibi UTS\UTS\UTS\bin\Debug\UTS.xml
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Form1.resources
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Resources.resources
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.vbproj.GenerateResource.Cache
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Home.resources
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Login.resources
