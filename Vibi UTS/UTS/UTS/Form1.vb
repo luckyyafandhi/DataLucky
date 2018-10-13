@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class Form1
-    Private Sub ListView()
+    Public Sub ListView()
         Dim cmd As SqlCommand
         Dim dr As SqlDataReader
 
@@ -46,7 +46,7 @@ Public Class Form1
         ListView()
         TBIDD.Visible = False
         TextBox1.Visible = False
-        
+        MenuStrip1.Visible = False
     End Sub
 
     Private Sub BTsave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTsave.Click
@@ -149,6 +149,8 @@ Public Class Form1
     Private Sub CBtransportasi_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CBtransportasi.SelectedIndexChanged
         If CBtransportasi.Text = "Other" Then
             TextBox1.Visible = True
+        Else
+            TextBox1.Visible = False
         End If
     End Sub
 
@@ -211,5 +213,15 @@ Public Class Form1
 
             End Try
         End If
+    End Sub
+
+    Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton1.Click
+        ListPengajuan.Show()
+    End Sub
+
+    Private Sub RefreshToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RefreshToolStripMenuItem.Click
+        LV.Clear()
+        ListView()
+        LV.Refresh()
     End Sub
 End Class

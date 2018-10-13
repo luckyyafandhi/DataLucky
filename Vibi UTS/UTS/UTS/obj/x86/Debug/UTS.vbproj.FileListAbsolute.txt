@@ -18,3 +18,4 @@ D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Resources.resources
 D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.vbproj.GenerateResource.Cache
 D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Home.resources
 D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Login.resources
+D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.ListPengajuan.resources

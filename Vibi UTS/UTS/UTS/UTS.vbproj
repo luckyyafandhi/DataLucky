@@ -86,6 +86,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Koneksi.vb" />
+    <Compile Include="ListPengajuan.Designer.vb">
+      <DependentUpon>ListPengajuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListPengajuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPengajuan.resx">
+      <DependentUpon>ListPengajuan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
