@@ -65,9 +65,11 @@ Public Class Form1
                 dr.Close()
                 If CBtransportasi.Text = "Other" Then
                     query = "insert into Permintaan (RequestId,NameRequestor,RequestorId,Unit,DateIssue,UnitDestination,AcRegic,Transportation,Phone,Instruction) values (" & uid & ",'" & TbNama.Text & "','" & TBID.Text & "','" & TbUnit.Text & "','" & DateTimePicker1.Value & "','" & TBdestinasi.Text & "','" & TBReg.Text & "','" & TextBox1.Text & "','" & TBnophone.Text & "','" & TBintruksi.Text & "')"
+                Else
+                    query = "insert into Permintaan (RequestId,NameRequestor,RequestorId,Unit,DateIssue,UnitDestination,AcRegic,Transportation,Phone,Instruction) values (" & uid & ",'" & TbNama.Text & "','" & TBID.Text & "','" & TbUnit.Text & "','" & DateTimePicker1.Value & "','" & TBdestinasi.Text & "','" & TBReg.Text & "','" & CBtransportasi.Text & "','" & TBnophone.Text & "','" & TBintruksi.Text & "')"
+                    MsgBox("Data '" + TbNama.Text + "' Save!")
                 End If
-                query = "insert into Permintaan (RequestId,NameRequestor,RequestorId,Unit,DateIssue,UnitDestination,AcRegic,Transportation,Phone,Instruction) values (" & uid & ",'" & TbNama.Text & "','" & TBID.Text & "','" & TbUnit.Text & "','" & DateTimePicker1.Value & "','" & TBdestinasi.Text & "','" & TBReg.Text & "','" & CBtransportasi.Text & "','" & TBnophone.Text & "','" & TBintruksi.Text & "')"
-                MsgBox("Data '" + TbNama.Text + "' Save!")
+               
             Catch ex As Exception
                 MsgBox(ex.ToString)
             End Try
@@ -76,8 +78,14 @@ Public Class Form1
         ElseIf BTsave.Text = "Update" Then
             Try
                 Call OpenKoneksi()
-                query = "Update Permintaan Set NameRequestor='" & TbNama.Text & "',Unit='" & TbUnit.Text & "',UnitDestination='" & TBdestinasi.Text & "',Transportation='" & CBtransportasi.Text & "',RequestorId='" & TBID.Text & "',AcRegic='" & TBReg.Text & "', Phone= '" & TbNama.Text & "', Instruction= '" & TBintruksi.Text & "' Where RequestId= '" & TBIDD.Text & "'"
-                MsgBox("Data '" + TbNama.Text + "' Has Been Update")
+                If CBtransportasi.Text = "Other" Then
+                    query = "Update Permintaan Set NameRequestor='" & TbNama.Text & "',Unit='" & TbUnit.Text & "',UnitDestination='" & TBdestinasi.Text & "',Transportation='" & TextBox1.Text & "',RequestorId='" & TBID.Text & "',AcRegic='" & TBReg.Text & "', Phone= '" & TbNama.Text & "', Instruction= '" & TBintruksi.Text & "' Where RequestId= '" & TBIDD.Text & "'"
+                    MsgBox("Data '" + TbNama.Text + "' Has Been Update")
+                Else
+                    query = "Update Permintaan Set NameRequestor='" & TbNama.Text & "',Unit='" & TbUnit.Text & "',UnitDestination='" & TBdestinasi.Text & "',Transportation='" & CBtransportasi.Text & "',RequestorId='" & TBID.Text & "',AcRegic='" & TBReg.Text & "', Phone= '" & TbNama.Text & "', Instruction= '" & TBintruksi.Text & "' Where RequestId= '" & TBIDD.Text & "'"
+                    MsgBox("Data '" + TbNama.Text + "' Has Been Update")
+                End If
+              
             Catch ex As Exception
                 MsgBox(ex.ToString)
             End Try

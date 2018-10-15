@@ -19,3 +19,15 @@ D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.vbproj.GenerateResource.Cache
 D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Home.resources
 D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Login.resources
 D:\vibi.net\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.ListPengajuan.resources
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.exe
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.xml
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.pdb
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\bin\Debug\UTS.exe
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\bin\Debug\UTS.pdb
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\bin\Debug\UTS.xml
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Form1.resources
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Home.resources
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.ListPengajuan.resources
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Login.resources
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.Resources.resources
+D:\vibi.net\BackUp UTS\DataLucky\Vibi UTS\UTS\UTS\obj\x86\Debug\UTS.vbproj.GenerateResource.Cache

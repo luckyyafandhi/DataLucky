@@ -32,6 +32,7 @@ Public Class ListPengajuan
     End Sub
     Private Sub ListPengajuan_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         ListView()
+        RefreshToolStripMenuItem.Visible = False
     End Sub
 
     Private Sub LV_MouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles LV.MouseDown
@@ -124,5 +125,11 @@ Public Class ListPengajuan
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Me.Close()
         Form1.Show()
+    End Sub
+
+    Private Sub RefreshToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RefreshToolStripMenuItem.Click
+        LV.Clear()
+        ListView()
+        LV.Refresh()
     End Sub
 End Class
