@@ -12,7 +12,7 @@ $Catetan = "";
 $action = "form_add.php";
 if (isset($_GET['id'])){
 	$id = $_GET['id'];
-	include"koneksi.php";
+	include"koneksi1.php";
 	$query = "select * from produk
 			where produkid ='" .$id."'";
 			$row = mysql_query($query);
@@ -25,7 +25,7 @@ if (isset($_GET['id'])){
 			$Kota = $res['Kota'];
 			$Kode_Pos = $res['Kode_Pos'];
 			$Catetan = $res['Catetan'];
-			$action ="produk_update.php";
+			$action ="form_update.php";
 }
 
 ?>

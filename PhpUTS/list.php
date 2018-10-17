@@ -1,4 +1,4 @@
-<?php include "koneksi.php";?>
+<?php include "koneksi1.php";?>
 <div class="container">
   <center><h2>Tabel</h2>
   <p>Daftar Yang Telah Terinput</p>                                                                                      
