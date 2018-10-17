@@ -1,0 +1,32 @@
+CREATE DATABASE `dbuts` /*!40100 CHARACTER SET latin1 COLLATE 'latin1_swedish_ci' */;
+SHOW DATABASES;
+USE `dbuts`;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='dbuts';
+SHOW TABLE STATUS FROM `dbuts`;
+SHOW FUNCTION STATUS WHERE `Db`='dbuts';
+SHOW PROCEDURE STATUS WHERE `Db`='dbuts';
+SHOW TRIGGERS FROM `dbuts`;
+SHOW EVENTS FROM `dbuts`;
+SHOW ENGINES;
+SHOW VARIABLES LIKE 'collation_database';
+CREATE TABLE `form` (
+	`id` INT(10) NULL,
+	`sex` ENUM('Laki-Laki','Perempuan') NULL,
+	`tgl` DATE NULL,
+	`Email` VARCHAR(50) NULL,
+	`Telp` VARCHAR(50) NULL,
+	`Alamat` VARCHAR(50) NULL,
+	`Kota` VARCHAR(50) NULL,
+	`Kode_Pos` CHAR(50) NULL,
+	`Catetan` VARCHAR(50) NULL
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='dbuts';
+SHOW TABLE STATUS FROM `dbuts`;
+SHOW FUNCTION STATUS WHERE `Db`='dbuts';
+SHOW PROCEDURE STATUS WHERE `Db`='dbuts';
+SHOW TRIGGERS FROM `dbuts`;
+SHOW EVENTS FROM `dbuts`;
+SHOW CREATE TABLE `dbuts`.`form`;
+/* Entering session "Unnamed" */
